@@ -1,0 +1,29 @@
+nav{
+
+    background-color: aquamarine;
+    
+    height: 50px;
+    
+    }
+        nav ul{
+        
+        }
+        nav ul li{
+            
+list-style: none;
+            
+float: left;
+            
+padding: 10px;
+            
+line-height: 30px;
+            
+font-size: 25px;
+        }
+        nav a{
+           text-decoration: none;
+           color: black;
+        }
+        nav li:hover{
+            background-color: antiquewhite;
+        }

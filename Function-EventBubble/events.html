@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> add event listener using javascript </h3>
+    <button>click me</button>
+    <button id="second">click me</button>
+    <button>click me</button>
+    <button>click me</button>
+    <button id="last">click me</button>
+    <script>
+
+        document.getElementById('last').addEventListener('click' , function(){
+            document.body.style.backgroundColor = 'tomato';
+        })
+      //  function handleClick(){
+        //    document.body.style.backgroundColor ='cyan';
+        //}
+       // var secondButton = document.getElementById('second');
+        //secondButton.addEventListener('click' , handleClick);
+       // secondButton.onclick = handleClick;
+    </script>
+</body>
+</html>
