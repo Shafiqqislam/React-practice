@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+.students-info{
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+p{
+    font-family: 'Raleway', sans-serif; 
+}
+.img-box {
+    border: 1px solid #9999995e;
+    border-radius: 1;
+    border-radius: 28px;
+    width: 58px;
+    height: 56px;
+    padding-bottom: 10px 0;
+    padding: 0px;
+    margin-top: 47px;
+    /* margin: 0 12px; */
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.outer-shadow{
+    margin-top: 0px;
+}
+.students-details hr{
+    width: 100%;
+}
